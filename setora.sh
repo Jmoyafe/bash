@@ -44,7 +44,7 @@ while :
 			export ORACLE_SID ORACLE_HOME PATH LD_LIBRARY_PATH
 			break
 		else
-			printf "\nEl SID no existe\n"
+			read -p "El SID no existe. Pulsa <ENTER>"
 		fi
 	done
 
